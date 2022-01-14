@@ -99,10 +99,10 @@ main section and products styles
 }
 .our-products {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
+  grid-template-columns: repeat(3, 250px);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  justify-content: center;
 }
 .single-product {
   max-width: 250px;
