@@ -10,11 +10,11 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding:30px;
 }
 .top-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
   margin-top: 30px;
 }
 .right-side ul {
@@ -29,4 +29,28 @@ body {
   color: black;
 }
 
-
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.content-part h1 {
+  font-size: 50px;
+}
+.content-part p {
+  margin-top: 10px;
+}
+.primary-btn {
+  background-color: #f10554;
+  color: white;
+  outline: 0;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.image-part img {
+  width: 100%;
+}
