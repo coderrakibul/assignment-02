@@ -27,6 +27,9 @@ top header styles
   justify-content: space-between;
   margin-top: 30px;
 }
+.left-side h3 {
+  font-size: 20px;
+}
 .right-side ul {
   display: flex;
 }
@@ -64,7 +67,7 @@ header bottom part styles
   border-radius: 20px;
   font-weight: 700;
   margin-top: 30px;
-  cursor:pointer;
+  cursor: pointer;
 }
 .image-part img {
   width: 100%;
@@ -187,7 +190,7 @@ feature product styles
   padding: 10px 20px;
   font-weight: 700;
   margin-top: 30px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 /* ================
