@@ -260,12 +260,14 @@ footer styles
 
   .content-part h1 {
     font-size: 30px;
+    text-align: left;
   }
   .bottom-header {
     margin-top: 30px;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    grid-template-columns: repeat(1, 250px);
   }
   .content-part {
     order: 2;
@@ -275,7 +277,7 @@ footer styles
   }
   .company-logo {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 30px;
     justify-content: center;
     align-items: center;
