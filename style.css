@@ -320,3 +320,60 @@ footer styles
 /* ==========================
   Media queries  for tablet
 ========================== */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .top-header .right-side {
+    display: none;
+  }
+  .content-part h1 {
+    font-size: 30px;
+    text-align: left;
+  }
+  .bottom-header {
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(1, 350px);
+  }
+  .content-part {
+    order: 2;
+  }
+  .image-part {
+    order: 1;
+  }
+  .company-logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+  }
+  .our-products {
+    grid-template-columns: repeat(2, 250px);
+    justify-items: center;
+  }
+  .see-more-btn {
+    position: relative;
+    top: 250px;
+    left: 0;
+  }
+  .feature-product {
+    display: grid;
+    grid-template-columns: repeat(1, 350px);
+    justify-items: center;
+  }
+  .feature-image {
+    order: 2;
+  }
+  .feature-content {
+    order: 1;
+  }
+  .join-now-btn {
+    margin-bottom: 30px;
+  }
+  .user-exp {
+    display: grid;
+    grid-template-columns: repeat(1, 350px);
+  }
+  .user-content {
+    margin-bottom: 30px;
+  }
+}
